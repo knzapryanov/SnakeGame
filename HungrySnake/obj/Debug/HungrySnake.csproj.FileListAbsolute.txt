@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\SoftUni Projects\SnakeGame\HungrySnake\bin\Debug\HungrySnake.exe.config
+C:\Users\User\Desktop\SoftUni Projects\SnakeGame\HungrySnake\obj\Debug\HungrySnake.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\SoftUni Projects\SnakeGame\HungrySnake\bin\Debug\HungrySnake.exe
+C:\Users\User\Desktop\SoftUni Projects\SnakeGame\HungrySnake\bin\Debug\HungrySnake.pdb
+C:\Users\User\Desktop\SoftUni Projects\SnakeGame\HungrySnake\obj\Debug\HungrySnake.exe
+C:\Users\User\Desktop\SoftUni Projects\SnakeGame\HungrySnake\obj\Debug\HungrySnake.pdb
