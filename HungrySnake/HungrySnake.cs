@@ -9,7 +9,7 @@ namespace HungrySnake
 {
     class HungrySnake
     {
-        // Struct for the element position in the console
+        // Struct holding each element position on the console
         struct Position
         {
             public Position(int row, int col)
@@ -103,10 +103,6 @@ namespace HungrySnake
                 if (snakeNewHead.Col < 0) snakeNewHead.Col = Console.WindowWidth - 1;
                 if (snakeNewHead.Row == Console.WindowHeight) snakeNewHead.Row = 0;
                 if (snakeNewHead.Col == Console.WindowWidth) snakeNewHead.Col = 0;
-                //if (snakeNewHead.Row < 0 ||
-                //    snakeNewHead.Col < 0 ||
-                //    snakeNewHead.Row == Console.WindowHeight ||
-                //    snakeNewHead.Col == Console.WindowWidth ||
 
                 // If the new snake head Position is on some of the current snake elements positions the snake bites herself and game over.
                 // Print the message and the user points.
@@ -152,16 +148,6 @@ namespace HungrySnake
                     Console.SetCursorPosition(snakeTail.Col, snakeTail.Row);
                     Console.Write(' ');
                 }
-
-                //Console.Clear();
-                //foreach (var position in snakeElements)
-                //{
-                //    Console.SetCursorPosition(position.Col, position.Row);
-                //    Console.Write("*");
-                //}
-
-                //Console.SetCursorPosition(foodPosition.Col, foodPosition.Row);
-                //Console.Write("@");
 
                 Thread.Sleep(sleepTime);
             }
